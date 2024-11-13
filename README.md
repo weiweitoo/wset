@@ -1,7 +1,11 @@
-# WSET 2 help by @luksow
+# WSET Level 2 
+Wines: Looking behind the label
 
-It's a website I've created while studying for WSET Level 2 Award in Wines exam. It's available here: [https://wset.luksow.com](https://wset.luksow.com).
+Fork from [source](https://github.com/luksow/wset) and I further validate some data and add in my note in for WSET Level 2 Exam. 
+
+I publish the note live website available here: [https://wset.vercal.app](https://wset.vercal.app) in case I am interested to revisit anytime.
+
 
 ## Data
 
-You can find some raw data [here](https://github.com/luksow/wset/blob/master/pages/grapes.json).
+You can find some raw data [here](https://github.com/weiweitoo/wset/blob/master/pages/grapes.json).

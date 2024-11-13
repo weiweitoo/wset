@@ -9,10 +9,10 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>WSET 2 cheat sheet by @luksow</title>
+        <title>WSET 2 Note</title>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="description" content="WSET 2 cheat sheet by @luksow" />
-        <link rel="canonical" href="https://wset.luksow.com" />
+        <meta name="description" content="WSET Level 2 Cheat Sheat" />
+        <link rel="canonical" href="https://wset.hitoo.co" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

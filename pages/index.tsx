@@ -41,6 +41,7 @@ type GrapeWithRegion = {
   country: string,
   region: string,
   regionalCharacteristics: string,
+  locationCharacteristics: string,
 }
 
 export default function IndexPage() {
@@ -60,6 +61,7 @@ export default function IndexPage() {
       country: grapeRaw.country || "",
       region: grapeRaw.region || "",
       regionalCharacteristics: grapeRaw.characteristics || "",
+      locationCharacteristics: grapeRaw.location_attribute || "",
 
     };
     return grape;
@@ -188,6 +190,7 @@ export default function IndexPage() {
         <td>{gr.country}</td>
         <td>{gr.region}</td>
         <td>{gr.regionalCharacteristics}</td>
+        <td>{gr.locationCharacteristics}</td>
       </tr>)
     })
   }
@@ -200,6 +203,7 @@ export default function IndexPage() {
         {idx == 0 ? <td rowSpan={subRegionWithGrapes.length}>{gr.region}</td> : <></>}
         <td><Title order={6}>{gr.name}</Title></td>
         <td>{gr.regionalCharacteristics}</td>
+        {/* <td>{gr.locationCharacteristics}</td> */}
       </tr>)
     })
   }
@@ -272,6 +276,7 @@ export default function IndexPage() {
                 <th>Country</th>
                 <th>Region</th>
                 <th>Characteristics</th>
+                <th>Region Characteristics</th>
               </tr>
             </thead>
             <tbody>
@@ -288,6 +293,7 @@ export default function IndexPage() {
               <th>Country</th>
               <th>Region</th>
               <th>Characteristics</th>
+              <th>Region Characteristics</th>
             </tr>
           </thead>
           <tbody>
@@ -306,6 +312,7 @@ export default function IndexPage() {
                 <th>Region</th>
                 <th>Grape</th>
                 <th>Characteristics</th>
+                {/* <th>Region Characteristics</th> */}
               </tr>
             </thead>
             <tbody>
@@ -322,6 +329,7 @@ export default function IndexPage() {
               <th>Region</th>
               <th>Grape</th>
               <th>Characteristics</th>
+              {/* <th>Region Characteristics</th> */}
             </tr>
           </thead>
           <tbody>
@@ -440,10 +448,10 @@ export default function IndexPage() {
       <Title my={15} order={1}>Need printable version?</Title>
       <Text>Try <Anchor href="?printable">this</Anchor> and then use print function in your browser (works best with landscape mode). It is not perfect but that is all I can do for now.</Text>
       <Title my={15} order={1}>Error? Missing information?</Title>
-      <Text>You can report any issues <Anchor href="https://github.com/luksow/wset/issues" target="_blank">here</Anchor> or <Anchor href="https://luksow.com" target="_blank">directly to me.</Anchor></Text>
+      <Text>You can report any issues <Anchor href="https://github.com/weiweitoo/wset/issues" target="_blank">here</Anchor></Text>
       <Title my={15} order={1}>Acknowledgments</Title>
-      <Text>Prepared based on <q>Wines: Looking behind the label</q> and <q>WSET® Level 2 Award in Wines Workbook</q> by WSET. Special thanks to <Anchor href='https://republikawina.pl/' target="_blank">Republika Wina</Anchor> and my study group for the greatest WSET 2 experience.</Text>
-      <Divider my={20} size={5} variant="dashed" label="Brought to you with ❤️ by @luksow" labelProps={{ component: 'a', href: 'https://www.luksow.com', target: "_blank", variant: 'link', color: 'blue' }} />
+      <Text>Prepared based on <q>Wines: Looking behind the label</q> and <q>WSET® Level 2 Award in Wines Workbook</q> by WSET. And this is a fork from <Anchor href="https://github.com/luksow/wset" target="_blank"> @luksow</Anchor> and I further validate some data and add in my own note in for WSET Level 2 Exam. </Text>
+      <Divider my={20} size={5} variant="dashed" label="Brought to you with ❤️ by Too"/>
     </Container>
   );
 }
