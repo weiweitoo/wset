@@ -338,7 +338,7 @@ export default function IndexPage() {
         </Table>
       }
 
-      <Title order={1} my={15}>Important numbers</Title>
+      <Title order={1} my={15}>Important Notes</Title>
       <Title order={2} my={5}>Alcohol</Title>
       <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"250px"}>
         <tbody>
@@ -394,12 +394,49 @@ export default function IndexPage() {
       <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"250px"}>
         <tbody>
           <tr>
-            <td>White or rosé wines</td>
+            <td>White</td>
             <td>12°C - 22°C</td>
           </tr>
           <tr>
             <td>Red wines</td>
             <td>20°C - 32°C</td>
+          </tr>
+          <tr>
+            <td>rosé wines</td>
+            <td>Short meceration then follow by 12°C - 22°C</td>
+          </tr>
+        </tbody>
+      </Table>
+      <Title order={2} my={5}>Food and wine paring</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <tbody>
+          <tr>
+            <td>sweet</td>
+            <td>more dry and bitter, more acidic, less sweet amd fruity</td>
+          </tr>
+          <tr>
+            <td>umami</td>
+            <td>more dry and bitter, more acidic, less sweet amd fruity</td>
+          </tr>
+          <tr>
+            <td>salty</td>
+            <td>less dry and bitter, less acidic, more fruity and body</td>
+          </tr>
+          <tr>
+            <td>acidic</td>
+            <td>less dry and bitter, less acidic, more sweet and fruity</td>
+          </tr>
+          <tr>
+            <td>highly flavoured</td>
+            <td>overwhelmed by the food flavours</td>
+          </tr>
+          <tr>
+            <td>fatty/oily</td>
+            <td>less acidic</td>
+          </tr>
+          <tr>
+            <td>Hot(chilli heat)</td>
+            <td>alcohol more noticeable</td>
           </tr>
         </tbody>
       </Table>
@@ -445,6 +482,219 @@ export default function IndexPage() {
           </tr>
         </tbody>
       </Table>
+
+      <Title order={2} my={5}>Sparkling Wine</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Champagne</th>
+            <th>Cava</th>
+            <th>Prosecco</th>
+            <th>Asti</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Climate</td>
+            <td>Cool</td>
+            <td>Warm</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Region</td>
+            <td>Champagne region</td>
+            <td>Spain, mostly Catalunya</td>
+            <td>Veneto/Fruili</td>
+            <td>Piedmont</td>
+          </tr>
+          <tr>
+            <td>Aging Duration</td>
+            <td>Minimum 12 months</td>
+            <td>Minimum 9 months</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Grape</td>
+            <td>Chardonnay, Pinot Noir, Pinot Meunier</td>
+            <td>Chardonnay, Pinot Noir, local grape</td>
+            <td>Glera, Pinot Noir</td>
+            <td>Moscato</td>
+          </tr>
+          <tr>
+            <td>Sweetness</td>
+            <td>Brut, Demi-sec</td>
+            <td></td>
+            <td>Dry to sweet</td>
+            <td>Sweet</td>
+          </tr>
+          <tr>
+            <td>Alcohol</td>
+            <td></td>
+            <td></td>
+            <td>12%</td>
+            <td>5-9%</td>
+          </tr>
+          <tr>
+            <td>Flavour</td>
+            <td>Green fruits, citrus, bread, dough, pastry</td>
+            <td>Green fruits, citrus, bread</td>
+            <td>Green apple, peach, white flower</td>
+            <td>Flower, peach</td>
+          </tr>
+          <tr>
+            <td>Characteristic</td>
+            <td>Vintage and Non-vintage</td>
+            <td></td>
+            <td>2 rounds of fermentation</td>
+            <td>1 round of fermentation</td>
+          </tr>
+        </tbody>
+      </Table>
+
+      <Title order={2} my={5}>Sparking Wine Country</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <tbody>
+          <tr>
+            <th>Country</th>
+            <th>Type</th>
+            <th>Grape Varieties</th>
+          </tr>
+          <tr>
+            <td>France</td>
+            <td>Champagne</td>
+            <td>Chardonnay, Pinot Noir, Pinot Meunier</td>
+          </tr>
+          <tr>
+            <td>Spain</td>
+            <td>Cava</td>
+            <td>Chardonnay, Pinot Noir, local grape</td>
+          </tr>
+          <tr>
+            <td>South Africa</td>
+            <td>Cap Classique</td>
+            <td>Chardonnay, Pinot Noir, Chenin Blanc</td>
+          </tr>
+          <tr>
+            <td>Others</td>
+            <td>USA, Australia, New Zealand</td>
+            <td>Chardonnay, Pinot Noir, local grape</td>
+          </tr>
+        </tbody>
+      </Table>
+
+
+      <Title order={2} my={5}>PDO and PGI</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <tbody>
+          <tr>
+            <th>Country</th>
+            <th>PDO (Protected Designation of Origin)</th>
+            <th>PGI (Protected Geographical Indication)</th>
+          </tr>
+          <tr>
+            <td>France</td>
+            <td>AOP (Appellation d'Origine Protégée) and AOC (Appellation d'Origine Contrôlée)</td>
+            <td>IGP (Indication Géographique Protégée)</td>
+          </tr>
+          <tr>
+            <td>Italy</td>
+            <td>DOC (Denominazione di Origine Controllata) and DOCG (Denominazione di Origine Controllata e Garantita)</td>
+            <td>IGT (Indicazione Geografica Tipica)</td>
+          </tr>
+          <tr>
+            <td>Spain</td>
+            <td>DO (Denominación de Origen) and DOCa (Denominación de Origen Calificada)</td>
+            <td>Vino de la Tierra</td>
+          </tr>
+          <tr>
+            <td>Germany</td>
+            <td>Qualitätswein and Prädikatswein</td>
+            <td>Landwein</td>
+          </tr>
+        </tbody>
+      </Table>
+
+      <Title order={2} my={5}>Labelling in Spain</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <tbody>
+          <tr>
+          <th>Labeling in Spain</th>
+            <th>Joven</th>
+            <th>Crianza</th>
+            <th>Reserva</th>
+            <th>Gran Reserva</th>
+          </tr>
+          <tr>
+            <td>Aging</td>
+            <td>No aging</td>
+            <td>Short aging</td>
+            <td>5 months</td>
+            <td>Long aging</td>
+          </tr>
+          <tr>
+            <td>Flavor Profile</td>
+            <td>Red fruit</td>
+            <td>Vanilla</td>
+            <td>Dried fruit</td>
+            <td>Mushroom</td>
+          </tr>
+        </tbody>
+      </Table>
+
+      <Title order={2} my={5}>Sweetness Labeling in Germany</Title>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"600px"}>
+        <tbody>
+          <tr>
+            <th>Prädikat Level</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>Kabinett</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Spätlese</td>
+            <td>Late harvest</td>
+          </tr>
+          <tr>
+            <td>Auslese</td>
+            <td>Selected harvest</td>
+          </tr>
+          <tr>
+            <td>Eiswein</td>
+            <td>Concentrated by freezing</td>
+          </tr>
+          <tr>
+            <td>Beerenauslese (BA)</td>
+            <td>Selected branch or berries</td>
+          </tr>
+          <tr>
+            <td>Trockenbeerenauslese (TBA)</td>
+            <td>Selected berries</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Other Labeling</td>
+            <td>Description</td>
+          </tr>
+          <tr>
+            <td>Trocken</td>
+            <td>Dry wine</td>
+          </tr>
+          <tr>
+            <td>Halbtrocken</td>
+            <td>Wine with some sweetness</td>
+          </tr>
+        </tbody>
+      </Table>
+
+
       <Title my={15} order={1}>Need printable version?</Title>
       <Text>Try <Anchor href="?printable">this</Anchor> and then use print function in your browser (works best with landscape mode). It is not perfect but that is all I can do for now.</Text>
       <Title my={15} order={1}>Error? Missing information?</Title>

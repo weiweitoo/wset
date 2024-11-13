@@ -27,7 +27,7 @@ export default function App(props: AppProps) {
 
           gtag('config', 'G-E3S1QTKKJD');
         `}
-
+      </Script>
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS
