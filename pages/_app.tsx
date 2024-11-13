@@ -18,16 +18,15 @@ export default function App(props: AppProps) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-1938LGDNQD" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-E3S1QTKKJD" />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
- 
-          gtag('config', 'G-1938LGDNQD');
+
+          gtag('config', 'G-E3S1QTKKJD');
         `}
-      </Script>
 
       <MantineProvider
         withGlobalStyles
