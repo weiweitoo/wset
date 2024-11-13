@@ -596,7 +596,7 @@ export default function IndexPage() {
           </tr>
           <tr>
             <td>France</td>
-            <td>AOP (Appellation d'Origine Protégée) and AOC (Appellation d'Origine Contrôlée)</td>
+            <td>AOP (Appellation d&apos;Origine Protégée) and AOC (Appellation d&apos;Origine Contrôlée)</td>
             <td>IGP (Indication Géographique Protégée)</td>
           </tr>
           <tr>
