@@ -374,32 +374,37 @@ export default function IndexPage() {
         </tbody>
       </Table>
       <Title order={2} my={5}>Climate</Title>
-      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"250px"}>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"300px"}>
         <tbody>
           <tr>
             <td>Cool</td>
-            <td>16.5°C or below</td>
+            <td>16.5°C (62°F) or below</td>
           </tr>
           <tr>
             <td>Moderate</td>
-            <td>16.5°C - 18.5°C</td>
+            <td>16.5°C - 18.5°C (62°F - 65°F)</td>
           </tr>
           <tr>
             <td>Warm</td>
-            <td>18.5°C - 21°C</td>
+            <td>18.5°C - 21°C (65°F - 70°F)</td>
           </tr>
         </tbody>
       </Table>
       <Title order={2} my={5}>Fermentation</Title>
-      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"250px"}>
+      <Table verticalSpacing={"xs"} horizontalSpacing={"xs"} fontSize={"xs"} striped={true} withBorder={true} withColumnBorders={true} maw={"300px"}>
         <tbody>
           <tr>
+<<<<<<< HEAD
             <td>White</td>
             <td>12°C - 22°C</td>
+=======
+            <td>White or rosé wines</td>
+            <td>12°C - 22°C (54°F - 72°F)</td>
+>>>>>>> upstream/master
           </tr>
           <tr>
             <td>Red wines</td>
-            <td>20°C - 32°C</td>
+            <td>20°C - 32°C (68°F - 90°F)</td>
           </tr>
           <tr>
             <td>rosé wines</td>
@@ -452,32 +457,32 @@ export default function IndexPage() {
         <tbody>
           <tr>
             <td>Well chilled</td>
-            <td>6°C - 8°C</td>
+            <td>6°C - 8°C (43°F - 46°F)</td>
             <td>Sweet wine</td>
           </tr>
           <tr>
             <td>Well chilled</td>
-            <td>6°C - 10°C</td>
-            <td>Sparking wine</td>
+            <td>6°C - 10°C (43°F - 50°F)</td>
+            <td>Sparkling wine</td>
           </tr>
           <tr>
             <td>Chilled</td>
-            <td>7°C - 10°C</td>
-            <td>Light-, medium-bodied white or rose</td>
+            <td>7°C - 10°C (45°F - 50°F)</td>
+            <td>Light-, medium-bodied white or rosé</td>
           </tr>
           <tr>
             <td>Lightly chilled</td>
-            <td>10°C - 13°C</td>
+            <td>10°C - 13°C (50°F - 55°F)</td>
             <td>Full-bodied white</td>
           </tr>
           <tr>
             <td>Room temperature or lightly chilled</td>
-            <td>13°C - 18°C</td>
+            <td>13°C - 18°C (55°F - 64°F)</td>
             <td>Light-bodied red</td>
           </tr>
           <tr>
             <td>Room temperature</td>
-            <td>15°C - 18°C</td>
+            <td>15°C - 18°C (59°F - 64°F)</td>
             <td>Medium-, full-bodied red</td>
           </tr>
         </tbody>
@@ -698,10 +703,17 @@ export default function IndexPage() {
       <Title my={15} order={1}>Need printable version?</Title>
       <Text>Try <Anchor href="?printable">this</Anchor> and then use print function in your browser (works best with landscape mode). It is not perfect but that is all I can do for now.</Text>
       <Title my={15} order={1}>Error? Missing information?</Title>
+<<<<<<< HEAD
       <Text>You can report any issues <Anchor href="https://github.com/weiweitoo/wset/issues" target="_blank">here</Anchor></Text>
       <Title my={15} order={1}>Acknowledgments</Title>
       <Text>Prepared based on <q>Wines: Looking behind the label</q> and <q>WSET® Level 2 Award in Wines Workbook</q> by WSET. And this is a fork from <Anchor href="https://github.com/luksow/wset" target="_blank"> @luksow</Anchor> and I further validate some data and add in my own note in for WSET Level 2 Exam. </Text>
       <Divider my={20} size={5} variant="dashed" label="Brought to you with ❤️ by Too"/>
+=======
+      <Text>You can report any issues <Anchor href="https://github.com/luksow/wset/issues" target="_blank">here</Anchor> or <Anchor href="https://luksow.com" target="_blank">directly to me.</Anchor> Please note that this information was sourced from Issue 1 (2019), while the current version is Issue 2 (2023). I am gradually updating this information to align with the new version.</Text>
+      <Title my={15} order={1}>Acknowledgments</Title>
+      <Text>Prepared based on <q>Wines: Looking behind the label, Issue 1 (2019)</q> and <q>WSET® Level 2 Award in Wines Workbook</q> by WSET. Special thanks to <Anchor href='https://republikawina.pl/' target="_blank">Republika Wina</Anchor> and my study group for the greatest WSET 2 experience.</Text>
+      <Divider my={20} size={5} variant="dashed" label="Brought to you with ❤️ by @luksow" labelProps={{ component: 'a', href: 'https://www.luksow.com', target: "_blank", variant: 'link', color: 'blue' }} />
+>>>>>>> upstream/master
     </Container>
   );
 }
